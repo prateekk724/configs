@@ -1,0 +1,1101 @@
+rm -rf .config/nushell/
+cd .cache/
+ls
+cd starship/
+ls
+starship init nu | save init.nu
+ls
+bat init.nu
+ls
+rm -rf *
+ls
+cd
+$nu.env-path
+cd .config/nushell/
+nvim env.nu
+$nu.config-path
+nvim config.nu
+nu
+ls
+clear
+cd /tmp
+ls
+cd..
+cd ..
+ls
+cd
+ls
+cd rustlings/
+ls
+clear
+ls
+clear
+lsd -lha
+ls
+clear
+ls
+cd
+clear
+ls
+lsd -lha
+ls
+config nu
+cd .config/nushell/
+ls
+nvim config.nu
+nu
+clear
+whoami
+whoami sslf
+clear
+nu
+starship explain
+sudo pacman -S zoxide
+z
+z /home/arch/vm/artix-linux.qcow2
+clear
+reboot
+echo $SHELL
+clear
+ls
+bat .zshrc
+yambar
+exir
+sway
+ls
+rg yambar
+cd .
+cd ..
+cd /home/
+sud rg yambar
+sudo rg yambar
+sudo rg yam
+ls
+cd arch/
+ls
+sudo rg yambar
+yambar
+sudo pacman -Syu
+ping archlinux.org
+iwctl
+ip a s
+iwctl
+reboot
+cd /var/cache/pacman/pkg/
+ls
+ls | grep glibc
+ping archlinux.org
+sudo pacman -Syu
+ping archlinux.org
+yambar
+paru yambar
+yambar
+yambar -c n 
+yambar --help
+pacman -c
+yambar -c
+yambar -c /dev/null
+skim
+man skim
+skim -h
+man yambar
+yambar
+yambar -C
+ls
+cd .config/
+ls
+cd sway/
+ls
+nvim config
+lsd -lha
+ls
+yambar
+clear
+ls
+clear
+paru -Qi i3status-rust
+paru -Q i3status-rust
+paru -Qs i3status-rust
+paru i3status-rust
+which i3status-rs
+ls
+cd .config
+ls
+touch i3status-rust
+rm i3status-rust
+mkdir i3status-rust
+cd i3status-rust/
+touch config.toml
+ls
+nvim n 
+n
+nu n
+clear
+ls
+nvim config.toml
+i3status-rs
+i3status-rs --help
+i3status-rs 
+yambar
+clear
+ls
+cd .config
+ls
+cd i3status-rust/
+ls
+ls -h
+nvim config.toml
+nvim .config/sway/config
+bat config.toml
+yambar
+yambar --help
+yambar -b xcb
+yambar -d info
+yambar -d error
+yambar -d info -l always
+nvim .config/i3status-rust/config.toml
+man i3status-rust
+nvim .config/i3status-rust/config.toml
+pulsemixer
+zsh
+yambar
+clear
+zsh
+nvim .config/i3status-rust/config.toml
+man 5 sway-bar
+man 5 sway
+nvim .config/sway/config
+nvim .config/i3status-rust/config.toml
+nvim .config/sway/config
+nvim .config/i3status-rust/config.toml
+man 5 sway-bar
+bash
+clear
+pacman -Qe
+sudo pacman -R foot pomo yambar tmux
+pacman -Qi sway
+man pacman
+paru
+clear
+nvim 
+nvim .config
+cd .config/nvim
+ls
+nvim init.lua
+clear
+ls
+cd lua/
+ls
+nvim plugins.lua
+lsd --tree
+cd ..
+ls
+nvim init.lua
+ls
+nvim .config/i3status-rust/config.toml
+nvim .config/sway/config
+nvim .config/i3status-rust/config.toml
+nvim .config/sway/config
+clear
+man nu
+man nushell
+nu man
+nu --help
+ls
+nu -p
+clear
+lsd -lha
+rm -rf .zcompdump .zsh_alias
+ls
+10 / 2
+log(3)
+log2(3<\n>)
+clear
+help
+rustlings
+clear
+cd rustlings/
+rustlings
+rustlings --help
+ruslings list
+rustlings
+rustlings --list
+clear
+rustlings --help
+rustlings list
+clear
+ls
+clear
+ruslings watch
+clear
+cd rustlings
+z exercises/
+zoxide
+zoxide exercises/
+ls
+z exercises/
+cd exercises/
+ls
+nvim intro/intro1.rs
+cd structs/
+ls
+nvim structs1.rs
+bat README.md
+nvim structs1.rs
+nvim structs2.rs
+nvim structs3.rs
+ls
+cd rustlings/
+ls
+open info.toml
+bat info.toml
+clear
+cd rustlings/
+ls
+cd exercises/
+ls
+cd enums/
+ls
+bat README.md
+nvim enums1.rs
+nvim enums2.rs
+nvim enums3.rs
+ls
+rustlings watch
+clear
+nc 150.136.171.117 1337
+htop
+sudo systmctl status
+sudo systemctl status
+sudo systemctl disable xdg-desktop-portal-wlr
+sudo systemctl enable w 
+zsh
+clear
+ls
+clear
+ls
+cd rustlings/
+ls
+z rustlings/exercises/strings/
+zoxide rustlings/exercises/strings/
+clear
+cd rustlings/exercises/strings/
+ls
+bat README.md
+nvim strings1.rs
+nvim strings2.rs
+nvim strings3.rs
+nvim strings4.rs
+rustlings watch
+cd rustlings/
+cd rustlings/
+cd exercises/
+ls
+cd modules/
+ls
+open README.md
+ls
+nvim modules1.rs
+nvim modules2.rs
+nvim modules3.rs
+rustlings watch
+clear
+zellij
+nvim
+nvim 
+zellij 
+clear
+nvim
+clear
+zellij 
+foot
+clear
+term size p 
+term
+term size
+clear
+nvim
+ls
+htlp
+htop
+clear
+zsh
+clear
+ls
+ls | where name == "Downloads"
+ls -lha
+ls -la
+ls -la | where size > 4KiB
+ls -la | where type == "dir"
+zsg
+zsh
+nu
+clear
+ls
+clear
+ls
+cd .config/i3status-rust/
+ls
+open config.toml
+nvim config.toml
+ls
+mkdir making
+cd making
+touch Makefile
+nvim Makefile
+make
+pulsemixer
+clear
+nvim Makefile
+make
+ls
+./blah
+ls
+rm blah*
+ls
+nvim Makefile
+make
+rm some_file
+nvim Makefile
+make
+ls
+rm *_file
+ls
+nvim Makefile
+make
+ls
+clean
+make clean
+ls
+make
+make clean
+nvim Makefile
+make
+ls
+make clean
+nvim Makefile
+make
+ls
+g zsh
+g /usr/bin/zsh
+g bash
+clear
+g n 
+clear
+nvim Makefile
+make
+nvim Makefile
+make
+nvim Makefile
+make
+nvim Makefile
+make
+cc 
+cc --version
+gcc --version
+clear
+nvim Makefile
+make
+ls
+rm * where name != "Makefile"
+ls
+man rm
+rm -h
+nvim Makefile
+make
+ls
+./blah
+ls
+clear
+nvim Makefile
+make
+ls
+nvim Makefile
+ls
+make all
+ls
+ls | where name != "Makefile" | rm
+ls | where name != "Makefile" | rm -
+ls
+ls | where name != "Makefile"
+rm | ls | where name != "Makefile"
+rm -h
+rm all blah all.c all.o foo.c foo.o blah.o blah.c
+ls
+make 
+ls
+./foo.o
+chmod +x foo.o
+./foo.o
+type foo.o
+clear
+make clean
+ls
+make all
+ls
+./all
+clear
+nvim Makefile
+make
+nvim Makefile
+make
+ls
+make clean
+ls
+rm (ls | where name != "Makefile")
+rm (lsd | where name != "Makefile")
+rm -h
+clear
+ls
+rm all all.c all.o bar.c foo.raw lose.c
+ls
+make
+nvim Makefile
+make all
+nvim Makefile
+make
+nvim Makefile
+make
+nvim Makefile
+make
+nvim Makefile
+make
+touch main.c
+nvi main.c
+nvim main.c
+vim main.c
+vi main.c
+clear
+ls
+nvim main.c
+i3status-rs 
+clear
+nvim .config/i3status-rust/config.toml
+i3status-rs 
+clear
+sudo ip link set wlan0 down
+sudo ip link set wlan0 up
+nvim .config/i3status-rust/config.toml
+nvim .config/sway/config
+ip a s
+iwctl
+poweroff
+mpv https://www.twitch.tv/theprimeagen
+man i3status-rust
+man i3status-rs
+cd .config/i3status-rust/
+ls
+cp config.toml config.toml.old
+i3status-rs
+:q
+nvim config.toml
+mv config.toml.old config.toml
+ls
+clear
+nvim config.toml
+i3status-rs
+mpv "https://www.twitch.tv/theprimeagen"
+ls
+rm making
+rm -rf making
+clear
+sys | get host
+help
+help nu
+help ls
+$env.EDITOR
+cat /etc/shells
+ls
+cp -r /book /tmp/book
+cp -r book /tmp/book
+cd /tmp
+ls
+cd book/
+ls
+cd ap/
+ls
+cd ..
+clear
+ls
+cd ..
+zip book.zip book
+zip book 
+ls
+man zip
+zip --help
+/bin/zip book.zip book
+ls
+rm -f 1
+ip a s
+zsh
+bluetoothctl
+paru
+pacman -Qi fcft
+pacman -Qd
+pacman -Qdt
+pacman -Qi libutempter
+pacman -Qi scdoc
+pacman -Qi meson
+pacman -Qdt
+sudo pacman -R cups fcft libmpdclient libutempter meson scdoc xcb-util-cursor
+ls
+pacman -Qdt
+pacman -R cups-filters
+pacman -Qdt
+pacman -R cups-filters libutf8proc ninja
+sudo pacman -R cups-filters libutf8proc ninja
+ls
+sudo pacman -Qtd
+pacman -R cmake liblouis
+sudo pacman -R cmake liblouis
+ls
+pacman -Qtd
+sudo pacman -R rhash
+ls
+sudo pacman -Qtd
+clear
+sudo pacman -Syu
+cd /tmp
+touch main.java
+nvim main.java
+java main.java
+javac main.java
+javac -h
+java main.java
+java --help
+java --version
+nvim main.java
+mv main.java HelloWorldApp.java
+nvim HelloWorldApp.java
+pulsemixer
+ls
+mkdir assignment
+cd assignment/
+ls
+mkdir ap
+ls
+cd ap
+clear
+touch StringCompress.java
+nvim StringCompress.java
+java StringCompress.java
+nvim StringCompress.java
+java StringCompress.java
+nvim StringCompress.java
+cd /tmp
+lsl
+touch main.c
+nvim main.c
+cd assignment/ap
+ls
+cd assignment/ap
+ls
+java StringCompress.java
+jkk
+java StringCompress.java
+clear
+java StringCompress.java
+clear
+nvim StringCompress.java
+n 
+n 
+nn
+zellij
+zellij -h
+nvim
+echo $TERM
+zsh
+nvim
+cd .config/nvim/
+ls
+nvim init.lua
+vim
+nvim init.lua
+nvim
+nvim init.lua
+nvim
+clear
+man zellij
+zellij setup
+clear
+cd assignment/ap
+ls
+touch PrimeFactorize.java
+nvim .config/nvim/init.lua
+nvim PrimeFactorize.java
+ls
+cd assignment/ap/
+ls
+java PrimeFactorize.java a
+java PrimeFactorize.java
+java PrimeFactorize.java hello
+cd /opt/
+ls
+cd
+cd /etc/share
+sudo pacman -S jdk-opendjdk
+sudo pacman -S openjdk
+sudo pacman -S jdk17-openjdk
+sudo pacman -S jdk-openjdk
+pacman -Qi j*
+pacman -Qi j
+pacman -Qi
+pacman -Qs
+pacman -R jre-openjdk-headless jre-openjdk
+pacman -R jre17-openjdk-headless jdk17-openjdk
+sudo pacman -R jre17-openjdk-headless jdk17-openjdk
+pacman -Qs
+sudo pacman -R jre17-openjdk-headless jre17-openjdk
+pacman -Qi jdtls
+sudo pacman -R java-runtime
+sudo pacman -R jre17-openjdk-headless jre17-openjdk
+sudo pacman -R jre17-openjdk-headless jre17-openjdk jdtls
+pacman -S jdtls
+sudo pacman -S jdtls
+paru jdtls
+ls
+nvim PrimeFactorize.java
+java PrimeFactorize.java hello
+htop
+java PrimeFactorize.java 
+java PrimeFactorize.java abcd
+java PrimeFactorize.java abcdabcd
+java PrimeFactorize.java Earthshaking
+java PrimeFactorize.java earthshaking
+java PrimeFactorize.java
+java PrimeFactorize.java a
+java PrimeFactorize.java ab
+java PrimeFactorize.java abcdefgh
+java PrimeFactorize.java Earthshaking
+java PrimeFactorize.java Multiplication
+java PrimeFactorize.java multiplication
+java PrimeFactorize.java multiplicationa
+java PrimeFactorize.java multiplicationaa
+java PrimeFactorize.java multiplication
+java PrimeFactorize.java multiplicatio
+java PrimeFactorize.java multiplication
+cd /tmp
+ls
+java PrimeFactorize.java multiplication
+nvim main.py
+python main.py
+java PrimeFactorize.java multiplicationaaaaaaaaaaaaaaaaaaaaaaaaaaa
+java PrimeFactorize.java multiplicationaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+java PrimeFactorize.java multiplicationaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+java PrimeFactorize.java multiplicationaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+java PrimeFactorize.java multiplicationaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+javac
+java --version
+clear
+ls
+touch LoopCheck.java
+cd assignment/ap/
+ls
+java LoopCheck.java
+clear
+nvim LoopCheck.java
+clear
+nvim 
+nvim .
+clear
+ls
+clear
+ls
+zsh
+bash
+curl bash cheat.sh
+curl cheat.sh/bash
+clear
+curl cheat.sh/bash
+bash
+curl cheat.sh/curl
+curl http:/ifconfig.me/all/json
+curl http:/ifconfig.me/
+curl ip.me
+curl ifconfig.me
+ping 43.228.140.217
+ping 43.228.140.202
+ls
+bash
+clear
+sudo systemctl start libvirtd
+ls
+cd scripts/
+ls
+clear
+bat *
+cd 
+nvim hitb.ovpn
+openvpn
+sudo pacman -Sy openvpn
+clear
+openvpn hitb.ovpn
+ssh 10.60.95.3
+ssh 10.60.95.3 -u root
+ssh root@1060.95.4
+ssh root@10.60.95.4
+clear
+ssh root@10.60.95.3
+clear
+ssh root@10.60.95.6
+cler
+zellij
+clear
+ssh root@10.60.95.
+ssh root@10.60.95.6
+clear
+ssh root@10.60.95.6
+TeX7xFTbRDkx
+ssh root@10.60.95.7
+clear
+tcpdump
+zsh
+zsh
+sudo openvpn hitb.ovpn
+pulsemixer
+clear
+ls
+bat kv.pcam
+bat kv.pcap
+cat kv.pcap
+clear
+iwctl
+ssh root@10.60.95.3
+clear
+ls
+openvpn hitb.ovpn
+clear
+ls
+ssh root@fdye7bCY4geN
+ssh root@10.60.95.3
+sudo openvpn hitb.ovpn
+swya
+ssh root@10.60.95.6
+rm .ssh/known_hosts
+grim -g "$(slurp)"
+ssh root@10.60.95.6
+ssh root@10.60.95.9
+zsh
+eit
+sudo openvpn hitb.ovpn
+ls
+rm 0
+rm *.png
+ls
+cd .config/nvim
+ls
+nvim init.lua
+nvim 
+nvim
+zellij
+nvim 
+ls
+cd lua/
+ls
+nvim plugins.lua
+htop
+cd assignment/ap/
+ls
+touch Student.java
+nvim Student.java
+nvim .config/nvim/init.lua
+cd
+cd .config/
+ls
+cd nvim/
+ls
+nvim init.lua
+cd
+cd assignment/ap/
+nvim Student.java
+java Student.java
+nvim Student.java
+java Student.java
+nvim Student.java
+java Student.java
+nvim Student.java
+java Student.java
+clear
+ls
+touch List.java
+nvim List.java
+cd .config
+cd ~/.config
+ls
+cd nvim
+ls
+cd lua/
+ls
+nvim plugins.lua
+nvim ../init.lua
+nvim ../init.luan
+nvim ../init.lua
+clear
+nvim /tmp/test.c
+nvim .config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim /tmp/test.c
+clear
+cd
+ls
+rm kv.pcap
+rm -rf scripts
+cd assignment/ap
+ls
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+cd assignment/ap
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+rm List.java
+ls
+cd assignment/np
+cd assignment/ap
+ls
+touch List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+clear
+ls
+nvim List.java
+ls
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvi List.java
+nvim List.java
+nvi List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+nvim List.java
+java List.java
+clear
+paru
+clear
+nvim
+zellij
+clear
+nvim
+zellij
+clear
+ls
+ls Downloads/
+rm hitb.ovpn
+man mkfs.btrfs
+shutdown now
+cd book/ap
+ls
+pulsemixer
+pulsemixer 
+htop
+ls
+cd /tmp
+clear
+ls
+touch q.java
+nvim q.java
+touch tmp.java
+nvim tmp.java
+java tmp.java
+nvim tmp.java
+java tmp.java
+nvim tmp.java
+java tmp.java
+nvim tmp.java
+java tmp.java
+cd /tmp
+nvim tmp.java
+pulsemixer
+ls
+cd temp
+ls
+mv `Jon Bentley - Programming Pearls (2nd Edition) (1999) - libgen.lc.pdf` ~/book/ap/
+mv `Jon Louis Bentley - More Programming Pearls_ Confessions of a Coder (1988).pdf` ~/book/ap/
+ls
+cd
+rm -rf temp
+ls
+cd Downloads/
+ls
+cd 
+rm -rf Downloads
+ls
+lsd -lha
+ls -l
+ls -la
+ls -a
+clear
+ls -la
+bash
+$env
+$env.config
+cat $env.config
+clear
+cd .conig
+cd .config
+ls
+cd nushell/
+ls
+bat history.txt
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -la
+ls
+ls -lha
+ls -la
+ls -lha
+clear
+ls -la
+lsmod n g g g g j j std 
+clear
+ls -lha
+cd .config
+ls
+ls -lha
+ls -la
+nvim config.nu
+ls
+ls -lha
+ls -lasdlfjaslfkdj;lsdkfjalskdjflskjflas;dfasdf;adhajdlfkajsldkfjlajsdflksjdf
+clear
+ls
+echo "This is very good " | clip
+version 
+version | get features
+zoxide 
+z
+sudo pamcan -Rns zoxide
+sudo pacman -Rns zoxide
+clear
+cd .config/
+nvim starship.toml
+rm starship.toml
+clear
+ls -lha 
+ls -la
+nvim .config
+man 5 sway
+clear
+cd /usr/share/sway/
+ls
+cd scripts/
+ls
+cd
+clear
+nvim .config/
+sudo pacman -Syy
+sudo pacman -Syyu
+clear
+mkfs.btrfs
+clear
+ls
+cd .config/
+ls
+cd chromium/
+ls
+cd ..
+bat chromium-flags.conf
+clear
+ls
+cd uair/
+ls
+cd ..
+clear
+ls
+cd yambar/
+ls
+cd ..
+rm -rf yambar
+clear
+cd /tmp
+git clone git@github.com:prateekk724/configs.git
+ls
+cd configs/
+ls
+cp -r ~/.config .
+ls
+ls la
+ls -la
+cd .config/
+cp -r 
+clear
+ls
+cd ..
+rm -rf .config/
+cd ..
+clear
+cp -r .config/ configs
